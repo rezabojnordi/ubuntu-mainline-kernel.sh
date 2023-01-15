@@ -112,6 +112,16 @@ Dependencies
 * dpkg
 * wget (since 2018-12-14 as kernel ppa is now https only)
 
+Install custome Version
+--------------------
+./ubuntu-mainline-kernel.sh -i 5.4.0
+
+./ubuntu-mainline-kernel.sh -i -v 5.4.0
+
+./ubuntu-mainline-kernel.sh -i v5.4.0
+
+./ubuntu-mainline-kernel.sh -l
+ ./ubuntu-mainline-kernel.sh -u v5.19.5-051905
 Optional dependencies
 ----------------
 * libnotify-bin (to show notify bubble when new version is found)
